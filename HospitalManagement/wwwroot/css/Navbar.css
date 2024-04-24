@@ -1,0 +1,53 @@
+﻿:root {
+    --blue1: #C9EEFF;
+    --blue2: #97DEFF;
+    --blue3: #62CDFF;
+    --blue4: #2F58CD;
+    --blue5: #19376D;
+}
+
+nav div {
+    background-color: var(--blue2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    width: 60px;
+    border-radius: 100px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+nav ul li {
+    margin: 0 10px; /* Khoảng cách giữa các mục */
+}
+
+nav button {
+    border: 1px solid var(--blue5);
+    background-color: var(--blue3);
+    padding: 4px 20px;
+    color: var(--blue4);
+    border-radius: 5px;
+    transition: transform 0.5s;
+}
+
+    nav button:hover {
+        transform: scale(1.1);
+    }
+
+nav ul:last-child li {
+    margin-right: 0; /* Loại bỏ khoảng trắng cuối cùng */
+}
